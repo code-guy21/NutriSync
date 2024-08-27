@@ -4,7 +4,7 @@ const authSchema = require('./Auth');
 const bcrypt = require('bcrypt');
 
 /**
- * Defines schema for users within the VibeStream application.
+ * Defines schema for users within the NutriSync application.
  * This schema encompasses various aspects of a user's profile, including
  * authentication methods, linked streaming services, and content interactions.
  * It serves as a model for user data management and interactions.
