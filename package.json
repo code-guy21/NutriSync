@@ -1,0 +1,26 @@
+{
+	"name": "nutrisync",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server/app.js",
+		"build": "cd client && npm run build",
+		"install": "cd server && npm install && cd ../client && npm install",
+		"render-build": "npm install && npm run build",
+		"dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/code-guy21/NutriSync.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/code-guy21/NutriSync/issues"
+	},
+	"homepage": "https://github.com/code-guy21/NutriSync#readme",
+	"dependencies": {
+		"concurrently": "^8.2.2"
+	}
+}
